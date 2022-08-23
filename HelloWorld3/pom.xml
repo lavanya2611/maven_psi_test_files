@@ -1,0 +1,22 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.parent.module</groupId>
+    <artifactId>ParentModule</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <groupId>com.parent.module4</groupId>
+  <artifactId>HelloWorld3</artifactId>
+  <version>0.0.4-SNAPSHOT</version>
+  <description>This is project 4 file </description>
+ 
+  <packaging>jar</packaging>
+  <dependencies>
+	      <dependency>
+					<groupId>com.parent.module3</groupId>
+				    <artifactId>Helloworld2</artifactId>
+					<version>0.0.3-SNAPSHOT</version>
+					<scope>provided</scope>
+		  </dependency>
+    </dependencies>
+</project>
