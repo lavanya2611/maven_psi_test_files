@@ -12,20 +12,20 @@
   <artifactId>HelloWorld3</artifactId>
   <version>0.0.4-SNAPSHOT</version>
   <packaging>jar</packaging>
-  <description> This is project 4 </description>
-	
-  <properties>
-      	<maven.compiler.source>1.8</maven.compiler.source>
-      	<maven.compiler.target>1.8</maven.compiler.target>
-   </properties>	
+  <description> This is project 4 file </description>
 	
   <dependencies>
 		   <dependency>
-					<groupId>com.parent.module3</groupId>
-					<artifactId>Helloworld2</artifactId>
-					<version>0.0.3-SNAPSHOT</version>
-					<scope>provided</scope>
+			<groupId>com.parent.module3</groupId>
+			<artifactId>Helloworld2</artifactId>
+			<version>0.0.3-SNAPSHOT</version>
+			<scope>provided</scope>
 		  </dependency>
    </dependencies>
-</project>
 	
+   <properties>
+     <maven.compiler.source>1.8</maven.compiler.source>
+     <maven.compiler.target>1.8</maven.compiler.target>
+   </properties>
+	
+</project>
