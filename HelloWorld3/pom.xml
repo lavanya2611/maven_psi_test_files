@@ -10,7 +10,7 @@
 
   <groupId>com.parent.module4</groupId>
   <artifactId>HelloWorld3</artifactId>
-  <version>0.0.3-SNAPSHOT</version>
+  <version>0.0.4-SNAPSHOT</version>
   <packaging>jar</packaging>
   <description> This is project 4 </description>
 	
