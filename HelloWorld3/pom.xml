@@ -17,7 +17,7 @@
   <dependencies>
 		   <dependency>
 			<groupId>com.parent.module3</groupId>
-			<artifactId>Helloworld2</artifactId>
+			<artifactId>HelloWorld2</artifactId>
 			<version>0.0.3-SNAPSHOT</version>
 			<scope>provided</scope>
 		  </dependency>
